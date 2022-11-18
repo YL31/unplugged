@@ -143,6 +143,7 @@ footer .social-icons p {
 aside {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -170,7 +171,7 @@ aside {
   flex-flow: row wrap;
 }
 
-/******* Mobile Styles --About Page *******/
+/******* Mobile Styles -- About Page *******/
 
 .mission {
   display: flex;
