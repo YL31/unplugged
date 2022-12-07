@@ -331,10 +331,16 @@ input[type=button] {
   margin: 30px 0;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 36px;
+}
+
 .features p {
   margin: 0;
   text-align: center;
 }
+
 
 /* Reviews */
 
@@ -638,8 +644,13 @@ input[type=button] {
     flex-basis: 50%;
   }
 
+  .features i {
+    font-size: 4.5em;
+    margin-bottom: 29px;
+  }
+
   .features .features-item-description {
-    width: 62%;
+    width: 70%;
   }
 
   /* Reviews */
@@ -816,7 +827,6 @@ input[type=button] {
   .map figure {
     padding-bottom: 38%; 
   }
-
 
   .contact-content div {
     width: 35%; 
