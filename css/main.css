@@ -233,13 +233,24 @@ footer .contact {
 footer .social-icons {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: space-around;
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 40px;
+  width: 40px;
+}
+
+footer .social-icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125em;
 }
 
 footer .copyright {
@@ -251,7 +262,7 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
-  background: url(../img/jake-melara-30679-unsplash.jpg) center no-repeat #333;
+  background: url(../img/unplugged-retreat.jpg) center no-repeat #333;
   background-size: cover;
   min-height: 500px;
   display: flex;
@@ -306,13 +317,11 @@ input[type=button] {
 /* Features */
 
 .features {
-  background: url(../img/rawpixel-800820-unsplash1.jpg) center no-repeat #333;
+  background: url(../img/unplugged-retreat-features.jpg) center no-repeat #333;
   background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url(../img/rawpixel-800820-unsplash1.jpg) center no-repeat #333;
-  background-size: cover;
 }
 
 .features h2 {
@@ -584,8 +593,14 @@ input[type=button] {
     flex-direction: row;
   }
 
-  footer .contact {
+  footer .contact,
+  footer .social {
+    width: 40%;
     margin-bottom: 0;
+  }
+
+  footer .social-icons i {
+    font-size: 1.125em;
   }
 
   footer h4 {
@@ -760,9 +775,12 @@ input[type=button] {
     padding: 0 20px;
   }
   
-  .footer-content {
-    width: 85%;
+  footer .social-icons {
+    padding: 0 40px;
   }
+  /*footer .footer-content {
+    width: 85%;
+  }*/
 
   /* =====================  Homepage -- Desktop Styles  ================= */
 
