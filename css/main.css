@@ -117,6 +117,7 @@ h2 {
   font-size: 1.875 em;
   font-weight: 500;
   line-height: 1.25em;
+  margin: 0;
 }
 
 h3,
@@ -275,6 +276,7 @@ footer .copyright {
   font-size: 2.25em;
   font-weight: 500;
   line-height: 1.2em;
+  margin: 0;
 }
 
 /* Aside */
@@ -350,7 +352,6 @@ input[type=button] {
   text-align: center;
 }
 
-
 /* Reviews */
 
 .reviews {
@@ -361,13 +362,13 @@ input[type=button] {
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
   line-height: 1em;
+  margin-bottom: 40px;
 }
 
 .reviews h3 {
-  width: 55%;
   margin: 20px 0;
+  width: 55%;
 }
 
 /*.reviews figure {
@@ -687,7 +688,6 @@ input[type=button] {
   .reviews h3 {
     margin: 0;
     width: 80%;
-    
   }
 
   /* =================== About Page -- Tablet Styles ==================== */
@@ -786,6 +786,10 @@ input[type=button] {
 
   /* Hero */
 
+  .hero-area .content-wrapper {
+    margin-top: 60px;
+  }
+
   .hero-area h1 {
     font-size: 3.75em;
     width: 70%;
@@ -814,13 +818,12 @@ input[type=button] {
 
   /* Reviews */
 
-  .reviews article {
-    margin-top: 100px;
+  .reviews h2 {
+    padding-bottom: 50px;
   }
 
   .reviews figure {
     width: 48%;
-
   }
 
   .reviews article div {
