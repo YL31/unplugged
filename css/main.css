@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
- /* General Styles */
+/* General Styles */
 
 html {
   font-size: 16px;
@@ -101,7 +101,7 @@ body {
 
 }
 
-ul, 
+ul,
 ol {
   list-style-type: none;
 
@@ -438,6 +438,7 @@ input[type=button] {
 .faq-content h4 {
   line-height: 1.333em;
 }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -521,9 +522,8 @@ input[type=button] {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
+   Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
-   Modify as content requires.
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
@@ -697,7 +697,7 @@ input[type=button] {
   }
 
   .map figure {
-    padding-bottom: 45%; 
+    padding-bottom: 45%;
   }
 
   .contact-section .content-wrapper h2 {
@@ -752,7 +752,7 @@ input[type=button] {
     font-size: 1.125em;
     line-height: 1.5em;
   }
-  
+
   .content-wrapper {
     max-width: 960px;
   }
@@ -764,9 +764,9 @@ input[type=button] {
   }
 
   header nav ul {
-   justify-content: space-around;
+    justify-content: space-around;
   }
-  
+
   footer .social-icons {
     padding: 0 40px;
   }
@@ -835,19 +835,19 @@ input[type=button] {
   }
 
   .map figure {
-    padding-bottom: 38%; 
+    padding-bottom: 38%;
   }
 
   .contact-content div {
-    width: 35%; 
+    width: 35%;
   }
 
   .contact-content h4 {
     font-size: 1.875em;
   }
 
-    /* =====================  FAQ Page -- Desktop Styles  ================= */
-  
+  /* =====================  FAQ Page -- Desktop Styles  ================= */
+
   .faq h2 {
     font-size: 3em;
   }
